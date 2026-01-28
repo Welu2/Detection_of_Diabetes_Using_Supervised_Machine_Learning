@@ -72,7 +72,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> Note: `streamlit` is listed in `requirements.txt`, but this repo does not currently include a Streamlit app.
 
 ## How to run
 
@@ -112,7 +111,3 @@ The `results/` directory includes generated deliverables such as:
 
 - If notebooks fail to import packages, ensure your notebook kernel is using the same environment where you ran `pip install -r requirements.txt`.
 - If you see file-not-found errors, confirm you are running from the project root so relative paths like `data/processed_diabetes_data.pkl` resolve correctly.
-
-## License
-
-No license file is included in this repository. If you plan to redistribute or publish derived work, add an explicit license.
