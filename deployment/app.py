@@ -4,8 +4,8 @@ import joblib
 import pandas as pd
 
 # Load preprocessing pipeline and model
-pipeline = joblib.load("/src/preprocessing_pipeline.pkl")
-model = joblib.load("/models/random_forest_model.pkl")
+pipeline = joblib.load("src/preprocessing_pipeline.pkl")
+model = joblib.load("models/random_forest_model.pkl")
 
 st.title("🩺 Diabetes Prediction System")
 st.write("Enter patient medical details to predict diabetes risk.")
